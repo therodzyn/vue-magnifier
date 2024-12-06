@@ -113,7 +113,7 @@ const mgStyle = computed(() => ({
   top: `calc(${relY * 100}% - ${
     mgHeight / 2
   }px + ${mgOffsetY}px - ${mgBorderWidth}px)`,
-  backgroundImage: `url(${zoomImgSrc || src})`,
+  backgroundImage: `url('${zoomImgSrc || src}')`,
   backgroundPosition: `calc(${relX * 100}% + ${mgWidth / 2}px - ${
     relX * mgWidth
   }px) calc(${relY * 100}% + ${mgHeight / 2}px - ${relY * mgWidth}px)`,
