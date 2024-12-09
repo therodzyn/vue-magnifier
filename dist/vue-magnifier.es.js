@@ -333,7 +333,9 @@ const _sfc_main = /* @__PURE__ */ defineComponent(__spreadProps(__spreadValues({
       overflow: __props.mgShowOverflow ? "visible" : "hidden"
     }));
     const mgImgStyle = computed(() => ({
-      cursor: __props.mgShow ? "none" : ""
+      cursor: __props.mgShow ? "none" : "",
+      width: "100%",
+      height: "100%"
     }));
     const mgStyle = computed(() => ({
       width: `${__props.mgWidth}px`,
