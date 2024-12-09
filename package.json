@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vue-tsc -p tsconfig.build.json --declaration --emitDeclarationOnly && vite build",
+    "build": "vite build",
     "serve": "vite preview",
     "release": "release-it",
     "install-demo": "npm --prefix ./demo i vue"
