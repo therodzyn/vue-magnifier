@@ -100,8 +100,6 @@ const mgWrapperStyle = computed(() => ({
 
 const mgImgStyle = computed(() => ({
   cursor: mgShow ? 'none' : '',
-  width: '100%',
-  height: '100%',
 }))
 
 const mgStyle = computed(() => ({
